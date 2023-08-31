@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="Click" onClick="sayHello();">
+    <form onSubmit="return checkForSelection();">
+
+        <!-- <select id="states">
+
+          <option value="" selected="selected">SELECT A STATE</option>
+
+          <option value="AL">karachi </option>
+
+          <option value="AK">pandi</option>
+
+          <option value="AZ">lahore</option>
+
+          <option value="AR">Arkansas</option>
+
+
+        </select>&nbsp;&nbsp; -->
+          <input type="text" id="zip" onsubmit="validateZIP()" value="submit">
+          <!-- <input type="submit" id="zip" onSubmit="validateZIP()" value="Submit Form" > -->
+         
+    </form>
+<script>
+ function validateZIP() {
+ var numChars = document.getElementById("zip").value.length;
+ if (numChars < 5) {
+ alert("Please enter a 5-digit code.");
+ return false;
+ }
+ }
+ 
+
+</script>
+    <!-- <form onSubmit="return validateRadios();">
+
+
+        <input type="radio" name="r1"  value="cat"> Cat<br>
+
+        <input type="radio" name="r1" value="bat"> Bat<br>
+
+        <input type="radio" name="r1" value="hat"> Hat<br>
+
+        <input type="submit" value="Submit Form"><br><hr>
+
+        <select id="states">
+
+            <option value="" selected="selected">SELECT A STATE</option>
+  
+            <option value="AL">karachi </option>
+  
+            <option value="AK">pandi</option>
+  
+            <option value="AZ">lahore</option>
+  
+            <option value="AR">Arkansas</option>
+  
+  
+          </select>&nbsp;&nbsp;
+  
+            <input type="submit" value="Submit Form">
+
+    </form>
+        
+    <script>
+
+     function validateRadios() {
+
+     var radios = document.getElementsByName("r1");
+
+     for (var i = 0; i < radios.length; i++) 
+     {
+     if (radios[i].checked) 
+     {
+     return true;
+     }
+     }
+     alert("Please check one.");
+     return false;
+     }    
+    
+    // var nam1 = "amir";
+    // var age = 62;
+    // var dept = "teacher";
+    // var city = "
+    //karachi";
+    // if(nam1 === "amir" && age > 50 && age < 70){
+    //     console.log("you can drive");
+    // }else{
+    //     console.log("you can't");
+    // }
+//  var arr = ["apple","bana", "mangoo","asddj","sgdfd"];
+// //  var arr2 = arr.splice(2,1,);
+//  var arr2 = arr.splice(2,1,"123","abcd");
+//  console.log(arr)
+//  [aple,bana,123,abcd,asddj,sgga]
+
+// num1 = num1 + 1;
+// num1++
+
+// var num1 = 2 
+// var num2 = ++num1 + num1 + num1++ + 1 + num1
+//         //   3   +   3  +    3    +`  1   + 4
+//           //    6    +       3   +   1   + 4
+//            //        9      +       1   + 4
+//            //               10      +   4 
+//            //                    14 
+//             console.log(num2);
+//  var monkeyWindow = window.open();
+//  monkeyWindow = monkeyWindow.location.assign("http://www.animals.com/capuchin.html");
+
+//  console.log(monkeyWindow);
+//  var windowContent = "<h1>Capuchin monkey</h1><img src= 'monkey.jpg'>
+//                     <p>The word capuchin derives from agroup of friars<br>named
+//                      the Order of Friars Minor Capuchin who wear<br>brown
+//                     robes with large hoods covering their heads.</p>";`
+//  monkeyWindow.document.write(windowContent);
+// function checkForSelection() 
+// { 
+//     if (document.getElementById("states").selectedIndex === 0) 
+//     {
+//       alert("Please select a state.");
+      
+//        return false;
+//      }else{
+//         console.log("that is good");
+//         alert("that is good");
+//      }
+// }
+
+
+ 
+-->  
+function sayHello(){
+    
+}  
+</script>
+</body>
+</html>
