@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cal">
+    <p>Southern Cal is sunny.</p>
+    188
+    <p>Northern Cal is rainy.</p>
+    <p>Eastern Cal is desert.</p>
+    </div>
+    <div id="ny">
+    <p>Urban NY is crowded.</p>
+    <p>Rural NY is sparse.</p>
+    </div>
+    <script>
+        // var body = document.getElementsByTagName('body');
+        // var body = document.childNodes[0].childNodes[1].childNodes[1];
+        //  var plan1 = {
+        //            name: "Basic",
+        //            price: 3.99,
+        //            space: 100,
+        //            transfer: 1000,
+        //            pages: 10,
+
+        //            };
+        //            plan1.name = "lalkhan";
+        //            plan1.price = "amir";
+        //            delete plan1.name;
+        //            delete plan1.space;
+        //            delete plan1.price;
+        //            delete plan1.transfer;
+        //            delete plan1.pages;
+        //            plan1. firstName = "Muhammad";
+        //            plan1. lastLast = "Amir";
+        //            plan1. MobileNo = "03555606631";
+        //            plan1. Email = "lalkhan2636277@gmail.com";
+        //             console.log(plan1);
+                    //  function calcAnnual() {
+                    //   var bestPrice = plan1.price;
+                    //   var currDate = new Date();
+                    //   var thisMo = currDate.getMonth();
+                    //   for (var i = 0; i < plan1.discountMonths.length; i++) {
+                    //   if (plan1.discountMonths[i] === thisMo) {
+                    //   bestPrice = plan1.price * .8;
+                    //   break;
+                    //  }
+                    //                        }
+                    //   return bestPrice * 12;
+                    //   }
+                    //   var fun = calcAnnual();
+                    // var fun = window.location;
+                    //   console.log(fun);
+                    //   window.location.href = "http://www.me.com/1.html";
+
+        //  var div = document.getElementById("ny");
+        //  var set = div.getElementsByTagName('div');
+        //  console.log("set===" + set);
+        //  console.log(div);
+        //  var p = div.getElementsByTagName("p");
+        //  console.log(p);
+        //  var contents = p[1].innerHTML ='my name is <b>amir</b>';
+        //  console.log(contents);
+        //  var parentNode =
+        //  var targetNode = parentNode.childNodes[0];
+        //  console.log("targetNode======" + targetNode);
+         var currentSite = window.location.hostname;
+         console.log("currentSite===" + currentSite);
+         var currentPath = window.location.pathname;
+         console.log("currentPath===" + currentPath);
+         var destination = "http://" + currentSite + currentPath + "#humidifier";
+         console.log("destination===" + destination);
+         window.location.href = destination;
+
+    </script>
+    </body>
+</html>
